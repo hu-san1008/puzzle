@@ -1,7 +1,7 @@
 let tiles = document.getElementsByClassName("tile");
 let timer = document.getElementById("timer");
 let containers = document.getElementsByClassName("container");
-let time = 120;
+let time = 300;
 let clear_flag;
 
 function init() {
