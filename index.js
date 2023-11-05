@@ -4,6 +4,13 @@ let containers = document.getElementsByClassName("container");
 let time = 300;
 let clear_flag;
 
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-HC0EBL8XPP');
+
+
 function init() {
   for (let index = 0; index < tiles.length; index++) {
     tiles[index].addEventListener("click", function (e) {
